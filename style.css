@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    border-radius: 20px;
+    margin-top: 10vh;
+    background-color: hsl(216, 50%, 16%);
+    height: 500x;
+}
+
+h5 {
+    color: white;
+    font-size: 18px;
+}
+
+#imgtop {
+    position: relative;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 15px;
+    height: 40vh;
+    cursor: pointer;
+}
+
+.days {
+    float: right;
+    color: hsl(215, 32%, 27%);
+}
+
+#pic {
+    border: 2px solid white;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+hr {
+    position: relative;
+    width: 15rem;
+    left: 20px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.avatar {
+    font-size: small;
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
